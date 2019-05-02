@@ -1,24 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Cattle Farm - Controle da sua fazenda</title>
-        <meta charset="UTF-8">
-        <link rel="icon" href="./resources/icon.png">
-        <link rel="stylesheet" href="../css/login.css">
-    </head>
-    <body>
-        <img id="icon" src="./resources/icon.png" alt="logo cattle farm">
+<head>
+    <title>Cattle Farm - Controle da sua fazenda</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../resources/icon.png">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+<main>
+    <div class="container">
+        <img id="icon" src="../resources/icon.png" alt="logo cattle farm" title="CattleFarm">
         <h1>Cattle Farm</h1>
-        <div>
-            <label id="email-lable">E-mail</label>
-            <input id="email-input" />
+        <hr>
+        <div class="campos">
+            <label for="email-input">E-mail</label>
+            <input id="email-input" type="email">
+            <label for="password-input">Senha</label>
+            <input id="password-input" type="password">
         </div>
-        <div>
-            <label id="password-lable">Senha</label>
-            <input id="password-input" />
-        </div>
-        <button id="button-entrar">ENTRAR</button>
-        <span>Esqueci minha senha</span>
-        <button id="button-criar-conta">CRIAR UMA CONTA GRÁTIS</button>
-    </body>
+        <a href="home.html">
+            <button id="button-entrar">Entrar</button>
+        </a>
+        <a href="#"><span id="esqueci-senha">Esqueci minha senha</span></a>
+        <a href="#">
+            <button id="button-criar-conta">Criar uma conta grátis</button>
+        </a>
+    </div>
+</main>
+<footer>
+    <span>Cattlefarm - 2019</span>
+    <div class="container-redes-sociais">
+        <ul class="redes-sociais">
+            <li>Igor C. Rodrigues</li>
+            <li class="github"><a href="https://github.com/igor-rodrigues2017" title="github">GitHub</a></li>
+            <li class="linkedin"><a href="https://www.linkedin.com/in/igor-rodrigues-silva-97a18a86/" title="linkedin">Linkedin</a>
+            </li>
+        </ul>
+    </div>
+</footer>
+</body>
 </html>

@@ -1,49 +1,135 @@
 body{
     background-color: rgba(73, 105, 83, 0.85);
 }
+
 h1{
     font-family: Sintony;
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
-    line-height: 29px;
-    color: #000;
-}
-#icon{
-    position: absolute;
-    width: 52px;
-    height: 52px;
-    left: 691px;
-    top: 58px;
+    color: black;
 }
 
-lable{
+button{
+    display: block;
+    width: 233px;
+    height: 38px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 10px;
+
+    text-align: center;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
-    line-height: 18px;
+    color: black;
+    text-transform: uppercase;
 }
+
 input{
+    display: block;
     background-color: #547155;
-    border: 1px solid #000000;
+    border: 1px solid black;
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-
+    width: 233px;
+    height: 38px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    padding: 5px;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
-    line-height: 18px;
 }
-span{
+
+hr{
+    display: block;
+    height: 1px;
+    width: 233px;
+    border: 0;
+    border-top: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+footer{
+    height: 50px;
+    font-family: Roboto;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer li{
+    display: inline-block;
+}
+
+#esqueci-senha{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
-    line-height: 18px;
     text-decoration-line: underline;
+    color: black;
+}
+
+#icon{
+    width: 52px;
+    height: 52px;
+}
+
+#button-entrar{
+    background: #55C03A;
+    margin-bottom: 10px;
+}
+
+#button-criar-conta{
+    background: #EAB01C;
+    margin-top: 20px;
+}
+
+.redes-sociais a{
+    display: inline-block;
+    text-indent: -9999px;
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    float: right;
+}
+.github a{
+    background-image: url("../resources/github.png");
+}
+
+.linkedin a{
+    background-image: url("../resources/linkedin.png");
+}
+
+.container-redes-sociais{
+    float: right;
+}
+
+.container {
+    width: 233px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.campos {
+    text-align: left;
+}
+
+label{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    clear: right;
 }
 
